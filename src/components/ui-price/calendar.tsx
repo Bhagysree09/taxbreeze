@@ -59,14 +59,20 @@ function Calendar({
         day_hidden: "invisible",
         ...classNames,
       }}
-      components={{
-        IconLeft: ({ className, ...props }) => (
-          <ChevronLeft className={cn("size-4", className)} {...props} />
-        ),
-        IconRight: ({ className, ...props }) => (
-          <ChevronRight className={cn("size-4", className)} {...props} />
-        ),
-      }}
+      components={
+        {
+          // @ts-ignore - react-day-picker component names differ by version
+          CaptionLabel: ({ className, ...props }: any) => (
+            <div className={cn("text-sm font-medium", className)} {...props} />
+          ),
+          NavButtonPrevious: () => (
+            <ChevronLeft className="size-4" />
+          ),
+          NavButtonNext: () => (
+            <ChevronRight className="size-4" />
+          ),
+        } as any
+      }
       {...props}
     />
   );
