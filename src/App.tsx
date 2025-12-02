@@ -8,6 +8,10 @@ import { ServicesPage } from './components/pages/ServicesPage';
 import { ContactPage } from './components/pages/ContactPage';
 import { LoginPage } from './components/pages/LoginPage';
 import { SignupPage } from './components/pages/SignupPage';
+import { PricingPage } from './components/pages/PricingPage';
+import { SalaryHouseRentPricingPage } from './components/pages/pricing/SalaryHouseRentPricingPage';
+import { CapitalGainsPricingPage } from './components/pages/pricing/CapitalGainsPricingPage';
+import { ForeignIncomePricingPage } from './components/pages/pricing/ForeignIncomePricingPage';
 import { GSTServicesPage } from './components/pages/GSTServicesPage';
 import { GSTRegistrationPage } from './components/pages/services/GSTRegistrationPage';
 import { GSTFilingPage } from './components/pages/services/GSTFilingPage';
@@ -30,8 +34,7 @@ import { CompanyCompliancesPage } from './components/pages/services/CompanyCompl
 import { OtherBusinessServicesPage } from './components/pages/services/OtherBusinessServicesPage';
 import { PrivacyPolicyPage } from './components/pages/PrivacyPolicyPage';
 import { TermsConditionsPage } from './components/pages/TermsConditionsPage';
-import PricingPage from './pricing/components/PricingPage';
-import PlanDetailPage from './pricing/components/PlanDetailPage';
+
 function AppContent() {
   const location = useLocation();
   const hideNavAndFooter = ['/login', '/signup'].includes(location.pathname);
@@ -45,12 +48,14 @@ function AppContent() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/company" element={<CompanyPage />} />
           <Route path="/services" element={<ServicesPage />} />
-          <Route path="/pricing" element={<PricingPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
-       
-                  <Route path="/plan/:planId" element={<PlanDetailPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/pricing/salary-house-rent" element={<SalaryHouseRentPricingPage />} />
+          <Route path="/pricing/capital-gains" element={<CapitalGainsPricingPage />} />
+          <Route path="/pricing/foreign-income" element={<ForeignIncomePricingPage />} />
+          
           {/* Individual Services */}
           <Route path="/tax-filing" element={<TaxFilingPage />} />
           <Route path="/tax-filing/salaried" element={<SalariedPage />} />
