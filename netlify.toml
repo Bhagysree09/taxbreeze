@@ -1,5 +1,6 @@
 [build]
-  command = "npm run build"
+  # Use a verboser build script to help capture useful diagnostics if the build fails on Netlify
+  command = "npm run build:netlify"
   publish = "dist"
 
 [context.production.environment]
