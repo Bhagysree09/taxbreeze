@@ -3,7 +3,8 @@ import { CheckCircle2, FileText, Phone, Mail, DollarSign, Users, Building } from
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
 import { fadeInUp, staggerContainer, staggerItem } from '../../utils/animations';
-import planComparisonImage from "../../../assets/planComparison.jpg"
+// Use an optimized external placeholder to avoid bundling very large assets during the build
+const planComparisonImage = 'https://via.placeholder.com/1400x600?text=Plan+Comparison+Image'
 
 export function VirtualOfficeGSTPage() {
   const benefits = [
