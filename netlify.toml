@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[context.production.environment]
+  # Lock node version across builds to ensure consistency with local dev
+  NODE_VERSION = "18"
