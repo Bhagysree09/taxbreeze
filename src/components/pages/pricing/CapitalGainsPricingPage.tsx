@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Check, Star, Shield, Clock, Users, ArrowRight, Phone, Mail, TrendingUp } from 'lucide-react';
+import { Check, Star, Shield, Clock, ArrowRight, Phone, Mail, TrendingUp } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
 import { Link } from 'react-router-dom';
