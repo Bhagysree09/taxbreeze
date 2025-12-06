@@ -62,6 +62,7 @@ export function AboutPage() {
               viewport={{ once: true }}
             >
               <h2 className="text-[#1A1A1A] mb-6">Our Story</h2>
+<<<<<<< HEAD
          <p className="text-[#6F6F6F] mb-4">
   Founded in 2025 by <span className="font-medium text-[#6A0DAD]">Samar Kumar</span> and 
   <span className="font-medium text-[#6A0DAD]"> Soumya Priyanka Priyadarshani</span>, TaxBreeze was created with a simple yet powerful mission — 
@@ -85,6 +86,17 @@ export function AboutPage() {
   stress-free. <strong className="text-[#6A0DAD]">TaxBreeze — Simplifying Taxes, Empowering Growth.</strong>
 </p>
 
+=======
+              <p className="text-[#6F6F6F] mb-4">
+                Founded in 2018, TaxBreeze was born from a simple vision: to make tax compliance accessible and stress-free for everyone. We saw how complex taxation and regulatory requirements overwhelmed individuals and small businesses, creating unnecessary anxiety and errors.
+              </p>
+              <p className="text-[#6F6F6F] mb-4">
+                What started as a small team of passionate chartered accountants has grown into a trusted platform serving over 5,000 clients across India. Our journey has been driven by innovation, dedication, and an unwavering commitment to client success.
+              </p>
+              <p className="text-[#6F6F6F]">
+                Today, we combine expert knowledge with cutting-edge technology to deliver seamless compliance solutions. From income tax filing to GST services, company registration to trademark protection â€“ we're here to help you focus on what matters most: growing your business.
+              </p>
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
             </motion.div>
 
             <motion.div

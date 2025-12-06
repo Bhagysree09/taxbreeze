@@ -54,6 +54,7 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
+<<<<<<< HEAD
             <Link to="/">
   <div className="leading-tight select-none">
     <h1
@@ -81,6 +82,9 @@ export function Footer() {
   </div>
 </Link>
 
+=======
+            <img src={logoImage} alt="TaxBreeze" className="h-12 mb-4" />
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
             <p className="text-gray-300 mb-6 max-w-md">
               Your trusted partner for hassle-free tax filing, GST services, and business registrations. Making compliance simple since 2018.
             </p>

@@ -71,6 +71,7 @@ export function Navigation() {
 
           {/* LEFT - Logo + Dropdowns */}
           <div className="flex items-center gap-6">
+<<<<<<< HEAD
          <Link to="/">
   <div className="leading-tight select-none">
     <h1
@@ -98,6 +99,11 @@ export function Navigation() {
   </div>
 </Link>
 
+=======
+            <Link to="/">
+              <img src={logoImage} alt="TaxBreeze" className="h-26" />
+            </Link>
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
 
             {/* Dropdown Menus */}
             <div className="hidden lg:flex items-center gap-6" ref={dropdownRef}>
@@ -186,6 +192,7 @@ export function Navigation() {
               </button>
             </Link>
 
+<<<<<<< HEAD
        <a
   href="https://wa.me/9740564642"
   target="_blank"
@@ -195,6 +202,16 @@ export function Navigation() {
   WhatsApp Now
 </a>
 
+=======
+            <a
+              href="https://wa.me/9740564642"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-7 py-2.5 bg-[#0CAB63] text-white rounded-xl text-sm font-medium hover:bg-[#0a9052]"
+            >
+              WhatsApp Now
+            </a>
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
           </div>
 
           {/* MOBILE MENU TOGGLE */}

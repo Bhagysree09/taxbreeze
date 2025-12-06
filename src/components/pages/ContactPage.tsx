@@ -113,7 +113,11 @@ export function ContactPage() {
             transition={{ duration: 0.6 }}
             className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm"
           >
+<<<<<<< HEAD
           Available 24/7 for Your Queries
+=======
+            ðŸ“ž Available 24/7 for Your Queries
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
           </motion.div>
           
           <motion.h1 
@@ -155,7 +159,11 @@ export function ContactPage() {
         </div>
 
         {/* Wave Separator */}
+<<<<<<< HEAD
         <div className="absolute bottom-0 left-[calc(var(--spacing)*80)] right-0">
+=======
+        <div className="absolute bottom-0 left-0 right-0">
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
           <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
           </svg>
@@ -350,9 +358,15 @@ export function ContactPage() {
                     <div>
                       <h3 className="text-[#1A1A1A] mb-2">Our Office</h3>
                       <p className="text-[#6F6F6F]">
+<<<<<<< HEAD
                         Bangalore, Karnataka ,India<br />
                         
                        
+=======
+                        123 Business Hub, Financial District<br />
+                        Mumbai, Maharashtra 400001<br />
+                        India
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
                       </p>
                     </div>
                   </div>
@@ -360,6 +374,7 @@ export function ContactPage() {
               </Card>
 
               {/* Working Hours */}
+<<<<<<< HEAD
            <Card className="border-2 border-[#E9D9FF]">
   <CardContent className="p-6">
     <div className="flex items-start gap-4">
@@ -379,13 +394,39 @@ export function ContactPage() {
   </CardContent>
 </Card>
 
+=======
+              <Card className="border-2 border-[#E9D9FF]">
+                <CardContent className="p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#6A23F5] to-[#A855F7] flex items-center justify-center text-white flex-shrink-0">
+                      <Clock className="w-6 h-6" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-[#1A1A1A] mb-4">Working Hours</h3>
+                      <div className="space-y-2">
+                        {workingHours.map((schedule, index) => (
+                          <div key={index} className="flex justify-between text-sm">
+                            <span className="text-[#6F6F6F]">{schedule.day}</span>
+                            <span className="text-[#1A1A1A]">{schedule.time}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
             </motion.div>
           </div>
         </div>
       </section>
 
       {/* Map Section (Optional - Using placeholder) */}
+<<<<<<< HEAD
       {/* <section className="py-16 bg-white">
+=======
+      <section className="py-16 bg-white">
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             variants={fadeInUp}
@@ -403,7 +444,11 @@ export function ContactPage() {
             </div>
           </motion.div>
         </div>
+<<<<<<< HEAD
       </section> */}
+=======
+      </section>
+>>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
 
       {/* FAQ or Quick Links */}
       <section className="py-20 bg-gradient-to-b from-[#E9D9FF]/20 to-white">
