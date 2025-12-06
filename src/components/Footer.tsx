@@ -1,7 +1,6 @@
 ﻿import { Link } from 'react-router-dom';
 import { Mail, Phone, MessageCircle, MapPin, Facebook, Linkedin, Instagram, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
-import logoImage from '../assets/logo.png';
 
 export function Footer() {
   const socialLinks = [
@@ -54,37 +53,31 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-<<<<<<< HEAD
             <Link to="/">
-  <div className="leading-tight select-none">
-    <h1
-      className="text-3xl font-bold"
-      style={{
-        color: "#6A0DAD", // Purple similar to your logo
-        fontFamily:
-          'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
-        letterSpacing: "0.5px",
-      }}
-    >
-      TaxBreeze
-    </h1>
-
-    <p
-      className="text-xs tracking-widest mt-1 mb-3"
-      style={{
-        color: "#ffff",
-        fontFamily:
-          'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
-      }}
-    >
-      WAY TO SIMPLIFY FINANCES
-    </p>
-  </div>
-</Link>
-
-=======
-            <img src={logoImage} alt="TaxBreeze" className="h-12 mb-4" />
->>>>>>> 263d34eb97dc29d0fc0d6796decc4a25b59951ac
+              <div className="leading-tight select-none">
+                <h1
+                  className="text-3xl font-bold"
+                  style={{
+                    color: "#6A0DAD",
+                    fontFamily:
+                      'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+                    letterSpacing: "0.5px",
+                  }}
+                >
+                  TaxBreeze
+                </h1>
+                <p
+                  className="text-xs tracking-widest mt-1 mb-3"
+                  style={{
+                    color: "#ffffff",
+                    fontFamily:
+                      'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
+                  }}
+                >
+                  WAY TO SIMPLIFY FINANCES
+                </p>
+              </div>
+            </Link>
             <p className="text-gray-300 mb-6 max-w-md">
               Your trusted partner for hassle-free tax filing, GST services, and business registrations. Making compliance simple since 2018.
             </p>
