@@ -190,7 +190,7 @@ export function SalariedPage() {
                 Get Started
               </Button>
             </Link>
-            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/919740564642" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 className="border-2 border-white text-white hover:bg-white hover:text-[#6A23F5] rounded-xl px-8 py-6 text-lg"

@@ -68,9 +68,9 @@ export function HomePage() {
   ];
 
   const stats = [
-    { number: 5000, label: 'Happy Clients', suffix: '+' },
-    { number: 10000, label: 'Returns Filed', suffix: '+' },
-    { number: 98, label: 'Success Rate', suffix: '%' },
+    { number: 500, label: 'Happy Clients', suffix: '+' },
+    { number: 1000, label: 'Returns Filed', suffix: '+' },
+    { number: 90, label: 'Success Rate', suffix: '%' },
     { number: 24, label: 'Support', suffix: '/7' },
   ];
 
@@ -267,7 +267,7 @@ export function HomePage() {
                 transition={{ duration: 0.6 }}
                 className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm"
               >
-                âœ¨ Trusted by 5000+ Businesses
+                ✨ Trusted by 500+ Businesses
               </motion.div>
               
               <motion.h1
@@ -300,7 +300,7 @@ export function HomePage() {
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
-                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919740564642" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="outline"
                     className="bg-white text-[#6A23F5] hover:bg-gray-100 rounded-xl px-8 py-6 text-lg group"

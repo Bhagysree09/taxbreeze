@@ -12,6 +12,9 @@ import { PricingPage } from './components/pages/PricingPage';
 import { SalaryHouseRentPricingPage } from './components/pages/pricing/SalaryHouseRentPricingPage';
 import { CapitalGainsPricingPage } from './components/pages/pricing/CapitalGainsPricingPage';
 import { ForeignIncomePricingPage } from './components/pages/pricing/ForeignIncomePricingPage';
+import { ProfessionalsFreelancersPricingPage } from './components/pages/pricing/ProfessionalsFreelancersPricingPage';
+import { ConsultantsBusinessPricingPage } from './components/pages/pricing/ConsultantsBusinessPricingPage';
+import { SmallBusinessTaxPricingPage } from './components/pages/pricing/SmallBusinessTaxPricingPage';
 import { GSTServicesPage } from './components/pages/GSTServicesPage';
 import { GSTRegistrationPage } from './components/pages/services/GSTRegistrationPage';
 import { GSTFilingPage } from './components/pages/services/GSTFilingPage';
@@ -55,6 +58,9 @@ function AppContent() {
           <Route path="/pricing/salary-house-rent" element={<SalaryHouseRentPricingPage />} />
           <Route path="/pricing/capital-gains" element={<CapitalGainsPricingPage />} />
           <Route path="/pricing/foreign-income" element={<ForeignIncomePricingPage />} />
+          <Route path="/pricing/professionals-freelancers" element={<ProfessionalsFreelancersPricingPage />} />
+          <Route path="/pricing/consultants-business" element={<ConsultantsBusinessPricingPage />} />
+          <Route path="/pricing/small-business-tax" element={<SmallBusinessTaxPricingPage />} />
           
           {/* Individual Services */}
           <Route path="/tax-filing" element={<TaxFilingPage />} />

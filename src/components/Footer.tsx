@@ -1,13 +1,13 @@
 ﻿import { Link } from 'react-router-dom';
-import { Mail, Phone, MessageCircle, MapPin, Facebook, Linkedin, Instagram, ArrowRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Linkedin, Instagram, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export function Footer() {
   const socialLinks = [
-    { icon: <Facebook className="w-5 h-5" />, href: 'https://facebook.com', label: 'Facebook' },
+    { icon: <Facebook className="w-5 h-5" />, href: 'https://www.facebook.com/share/18SEr2ESAb/', label: 'Facebook' },
     // { icon: <Twitter className="w-5 h-5" />, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: <Linkedin className="w-5 h-5" />, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: <Instagram className="w-5 h-5" />, href: 'https://instagram.com', label: 'Instagram' },
+    { icon: <Linkedin className="w-5 h-5" />, href: 'https://www.linkedin.com/company/taxbreezze/', label: 'LinkedIn' },
+    { icon: <Instagram className="w-5 h-5" />, href: 'https://www.instagram.com/taxbreeze.in?igsh=MXdsbTlsdnl2YWhrNg==', label: 'Instagram' },
     // { icon: <Youtube className="w-5 h-5" />, href: 'https://youtube.com', label: 'YouTube' },
   ];
 
@@ -16,6 +16,7 @@ export function Footer() {
     { path: '/about', label: 'About Us' },
     { path: '/contact', label: 'Contact' },
     { path: '/login', label: 'Login' },
+    { path: '#', label: 'Become a Partner' },
   ];
 
   const services = [
@@ -28,8 +29,6 @@ export function Footer() {
 
   const resources = [
     { path: '/services', label: 'All Services' },
-    { path: '#', label: 'Blog' },
-    { path: '#', label: 'FAQs' },
     { path: '/privacy-policy', label: 'Privacy Policy' },
     { path: '/terms-conditions', label: 'Terms & Conditions' },
   ];
@@ -79,7 +78,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-gray-300 mb-6 max-w-md">
-              Your trusted partner for hassle-free tax filing, GST services, and business registrations. Making compliance simple since 2018.
+              Your trusted partner for hassle-free tax filing, GST services, and business registrations. Making compliance simple since 2025.
             </p>
             
             {/* Contact Info */}
@@ -195,22 +194,40 @@ export function Footer() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <div className="max-w-2xl mx-auto text-center">
-            <h3 className="text-white mb-2 text-xl">Stay Updated</h3>
-            <p className="text-gray-300 mb-4">Subscribe to our newsletter for tax tips and updates</p>
-            <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-[#6A23F5] transition-colors"
-              />
-              <motion.button 
-                className="px-6 py-3 bg-gradient-to-r from-[#6A23F5] to-[#A855F7] rounded-xl hover:shadow-lg transition-shadow"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Subscribe
-              </motion.button>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            {/* Earn with TaxBreeze */}
+            <div className="text-center md:text-left">
+              <h3 className="text-white mb-2 text-xl">Earn with TaxBreeze</h3>
+              <p className="text-gray-300 mb-4">Join our partner network and grow your business with us</p>
+              <Link to="/login">
+                <motion.button 
+                  className="px-6 py-3 bg-gradient-to-r from-[#6A23F5] to-[#A855F7] rounded-xl hover:shadow-lg transition-shadow text-white font-medium"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Become a Partner
+                </motion.button>
+              </Link>
+            </div>
+
+            {/* Newsletter */}
+            <div className="text-center md:text-right">
+              <h3 className="text-white mb-2 text-xl">Stay Updated</h3>
+              <p className="text-gray-300 mb-4">Subscribe to our newsletter for tax tips and updates</p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-[#6A23F5] transition-colors"
+                />
+                <motion.button 
+                  className="px-6 py-3 bg-gradient-to-r from-[#6A23F5] to-[#A855F7] rounded-xl hover:shadow-lg transition-shadow whitespace-nowrap"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Subscribe
+                </motion.button>
+              </div>
             </div>
           </div>
         </motion.div>
@@ -227,31 +244,10 @@ export function Footer() {
             &copy; {new Date().getFullYear()} TaxBreeze. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
-            <Link to="#" className="text-gray-400 hover:text-[#6A23F5] transition-colors">Privacy Policy</Link>
-            <Link to="#" className="text-gray-400 hover:text-[#6A23F5] transition-colors">Terms of Service</Link>
-            <Link to="#" className="text-gray-400 hover:text-[#6A23F5] transition-colors">Cookie Policy</Link>
+            <Link to="/privacy-policy" className="text-gray-400 hover:text-[#6A23F5] transition-colors">Privacy Policy</Link>
+            <Link to="/terms-conditions" className="text-gray-400 hover:text-[#6A23F5] transition-colors">Terms of Service</Link>
           </div>
         </motion.div>
-
-        {/* WhatsApp Float Button */}
-        <motion.a
-          href="https://wa.me/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="fixed bottom-8 right-8 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-2xl z-50"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          animate={{
-            y: [0, -10, 0],
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            ease: "easeInOut"
-          }}
-        >
-          <MessageCircle className="w-7 h-7" />
-        </motion.a>
       </div>
     </footer>
   );

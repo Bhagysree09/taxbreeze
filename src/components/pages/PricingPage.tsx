@@ -67,47 +67,48 @@ export function PricingPage() {
 
   const professionalsPlans = [
     {
-      title: 'For Traders',
-      icon: '📊',
-      originalPrice: '₹12499',
-      price: '₹6999',
-      discount: 'Save 60%',
-      rating: 4.3,
-      link: '/pricing/traders',
-      features: [
-        'For Traders',
-        'Preparation of Account Summary, P&L and balance sheet',
-        'Also covers salary, other incomes and capital gains',
-        'Audit fee and DSC not included'
-      ]
-    },
-    {
-      title: 'For Professionals and Freelancers',
+      title: 'Professionals & Freelancers',
       icon: '💼',
-      originalPrice: '₹13749',
-      price: '₹2999',
+      originalPrice: '₹13,749',
+      price: '₹2,999',
       discount: 'Save 60%',
-      rating: 4.4,
+      rating: 4.7,
       link: '/pricing/professionals-freelancers',
       features: [
-        'Income for professionals (like Freelancers, Doctors) & small businesses',
-        'Applicable Annual Turnover < Rs. 2 cr for businesses or Gross Receipt < Rs. 50 Lacs for Professionals',
-        'Also covers salary, other incomes and capital gains'
+        'Professional income from practice',
+        'Freelance and consulting income',
+        'Income from multiple clients',
+        'Business expenses and deductions'
       ]
     },
     {
-      title: 'For Business',
-      icon: '🏢',
-      originalPrice: '₹16249',
-      price: '₹5999',
-      discount: 'Save 60%',
-      rating: 4.3,
-      link: '/pricing/business',
+      title: 'Consultants & Business Owners',
+      icon: '🎯',
+      originalPrice: '₹19,999',
+      price: '₹4,999',
+      discount: 'Save 65%',
+      rating: 4.9,
+      link: '/pricing/consultants-business',
       features: [
-        'Business income from business having upto 200 transactions',
-        'Preparation of Account Summary, P&L and balance sheet',
-        'Also covers salary, other incomes and capital gains',
-        'Audit Fee and DSC not included'
+        'Consulting business income',
+        'Contractor and vendor payments',
+        'Office expenses and deductions',
+        'Quarterly estimated tax planning'
+      ]
+    },
+    {
+      title: 'Small Business Tax',
+      icon: '🏪',
+      originalPrice: '₹24,999',
+      price: '₹6,999',
+      discount: 'Save 70%',
+      rating: 4.8,
+      link: '/pricing/small-business-tax',
+      features: [
+        'GST compliance and filings',
+        'Income tax return preparation',
+        'Balance sheet and P&L statement',
+        'Employee salaries and deductions'
       ]
     }
   ];

@@ -328,7 +328,7 @@ export function ContactPage() {
                 transition={{ duration: 0.3 }}
               >
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1712159018726-4564d92f3ec2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdXN0b21lciUyMHNlcnZpY2UlMjBzdXBwb3J0fGVufDF8fHx8MTc2MjQ0MTAzMnww&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjB0eXBpbmclMjBrZXlib2FyZHxlbnwxfHx8fDE3NjI3NTk2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080"
                   alt="Customer Support"
                   className="rounded-3xl shadow-2xl w-full h-[300px] object-cover"
                 />
@@ -418,7 +418,7 @@ export function ContactPage() {
             viewport={{ once: true }}
           >
             {[
-              { title: 'Chat Support', description: 'Get instant help on WhatsApp', link: 'https://wa.me/', icon: MessageCircle },
+              { title: 'Chat Support', description: 'Get instant help on WhatsApp', link: 'https://wa.me/919740564642', icon: MessageCircle },
               { title: 'Email Us', description: 'Detailed queries via email', link: 'mailto:support@taxbreeze.com', icon: Mail },
               { title: 'Call Us', description: 'Speak directly with our team', link: 'tel:+919876543210', icon: Phone },
             ].map((item, index) => (

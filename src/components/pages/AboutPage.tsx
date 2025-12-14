@@ -63,7 +63,7 @@ export function AboutPage() {
             >
               <h2 className="text-[#1A1A1A] mb-6">Our Story</h2>
               <p className="text-[#6F6F6F] mb-4">
-                Founded in 2025 by <span className="font-medium text-[#6A0DAD]">Samar Kumar</span> and <span className="font-medium text-[#6A0DAD]">Soumya Priyanka Priyadarshani</span>, TaxBreeze was created with a simple yet powerful mission — to make taxation and compliance effortless for everyone.
+                Founded in 2025 by <span className="font-medium text-[#6A0DAD]">Samar Kumar</span> and <span className="font-medium text-[#6A0DAD]">Soumya Priyanka Priyadarshini</span>, TaxBreeze was created with a simple yet powerful mission — to make taxation and compliance effortless for everyone.
               </p>
               <p className="text-[#6F6F6F] mb-4">
                 Both founders, driven by their passion for technology and financial transparency, envisioned a platform that simplifies the often complicated world of taxes for individuals, professionals, and businesses alike. What began as a small idea soon evolved into a trusted digital ecosystem that helps users file taxes, manage finances, and stay compliant — all with ease and accuracy.
