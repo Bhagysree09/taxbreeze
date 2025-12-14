@@ -183,14 +183,11 @@ export function Navigation() {
               </button>
             </Link>
 
-            <a
-              href="https://wa.me/9740564642"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-7 py-2.5 bg-[#0CAB63] text-white rounded-xl text-sm font-medium hover:bg-[#0a9052]"
-            >
-              WhatsApp Now
-            </a>
+            <Link to="/login">
+              <button className="px-7 py-2.5 bg-[#6A23F5] text-white rounded-xl text-sm font-medium hover:bg-[#8B5CF6] transition-all">
+                Become a Partner
+              </button>
+            </Link>
           </div>
 
           {/* MOBILE MENU TOGGLE */}
@@ -259,14 +256,11 @@ export function Navigation() {
                   Login / Register
                 </button>
               </Link>
-              <a
-                href="https://wa.me/9740564642"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 px-6 py-2.5 bg-[#0CAB63] text-white rounded-xl text-sm font-medium text-center hover:bg-[#0a9052]"
-              >
-                WhatsApp
-              </a>
+              <Link to="/login" className="flex-1">
+                <button className="w-full px-6 py-2.5 bg-[#6A23F5] text-white rounded-xl text-sm font-medium hover:bg-[#8B5CF6] transition-all">
+                  Become a Partner
+                </button>
+              </Link>
             </div>
           </div>
         )}
