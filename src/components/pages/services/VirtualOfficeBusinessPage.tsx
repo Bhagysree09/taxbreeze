@@ -74,7 +74,7 @@ export function VirtualOfficeBusinessPage() {
                 <DollarSign className="w-8 h-8" />
                 <div className="text-left">
                   <div className="text-sm text-white/80">Starting From</div>
-                  <div className="text-3xl">â‚¹18,000</div>
+                  <div className="text-3xl">₹18,000</div>
                 </div>
               </div>
             </div>

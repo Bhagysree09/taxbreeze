@@ -192,7 +192,7 @@ export function HomePage() {
     {
       icon: <Building className="w-6 h-6" />,
       title: 'Company Setup',
-      subtitle: 'â‚¹15,999',
+      subtitle: '₹15,999',
       status: 'price',
       delay: 0.4,
       position: { bottom: '15%', left: '0%' }
@@ -208,7 +208,7 @@ export function HomePage() {
     {
       icon: <DollarSign className="w-6 h-6" />,
       title: 'Tax Saved',
-      subtitle: 'â‚¹45,000',
+      subtitle: '₹45,000',
       status: 'success',
       delay: 0.8,
       position: { top: '45%', right: '-8%' }
@@ -663,7 +663,7 @@ export function HomePage() {
               >
                 {[
                   { icon: Award, text: '500+ Startups Successfully Registered', color: 'from-blue-500 to-blue-600' },
-                  { icon: TrendingUp, text: 'â‚¹50 Cr+ Tax Savings for Clients', color: 'from-green-500 to-green-600' },
+                  { icon: TrendingUp, text: '₹50 Cr+ Tax Savings for Clients', color: 'from-green-500 to-green-600' },
                   { icon: Target, text: '98% Client Retention Rate', color: 'from-purple-500 to-purple-600' },
                   { icon: CheckCircle2, text: 'Zero Penalty Track Record', color: 'from-pink-500 to-pink-600' },
                 ].map((item, index) => (

@@ -88,7 +88,7 @@ export function GSTFilingPage() {
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">âœ“</span> Avoid late fees and penalties (â‚¹200 per day for GSTR-3B)
+                  <span className="text-[#6A23F5]">✓</span> Avoid late fees and penalties (₹200 per day for GSTR-3B)
                 </p>
               </CardContent>
             </Card>

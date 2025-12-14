@@ -110,7 +110,7 @@ export function GSTServicesPage() {
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Avoid Penalties</h3>
-                    <p className="text-[#6F6F6F]">Late filing attracts â‚¹200 per day penalty for GSTR-3B</p>
+                    <p className="text-[#6F6F6F]">Late filing attracts ₹200 per day penalty for GSTR-3B</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">

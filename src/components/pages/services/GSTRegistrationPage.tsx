@@ -71,7 +71,7 @@ export function GSTRegistrationPage() {
             ))}
           </div>
           <p className="text-[#6F6F6F] text-center mt-8">
-            *GST registration is mandatory if your annual turnover exceeds â‚¹40 lakhs (â‚¹20 lakhs for service providers)
+            *GST registration is mandatory if your annual turnover exceeds ₹40 lakhs (₹20 lakhs for service providers)
           </p>
         </div>
       </section>

@@ -12,9 +12,9 @@ export function FoodLicensePage() {
   ];
 
   const licenseTypes = [
-    { name: 'Basic FSSAI Registration', turnover: 'Up to â‚¹12 lakhs', validity: '1-5 years' },
-    { name: 'State FSSAI License', turnover: 'â‚¹12 lakhs - â‚¹20 crores', validity: '1-5 years' },
-    { name: 'Central FSSAI License', turnover: 'Above â‚¹20 crores', validity: '1-5 years' },
+    { name: 'Basic FSSAI Registration', turnover: 'Up to ₹12 lakhs', validity: '1-5 years' },
+    { name: 'State FSSAI License', turnover: '₹12 lakhs - ₹20 crores', validity: '1-5 years' },
+    { name: 'Central FSSAI License', turnover: 'Above ₹20 crores', validity: '1-5 years' },
   ];
 
   const documents = [

@@ -24,7 +24,7 @@ export function CapitalGainsPage() {
     {
       title: 'Long-term Capital Gains',
       description: 'Assets held for more than specified period',
-      tax: '10% above â‚¹1L for equity, 20% with indexation for property',
+      tax: '10% above ₹1L for equity, 20% with indexation for property',
     },
   ];
 

@@ -65,7 +65,7 @@ export function VirtualOfficeGSTPage() {
                 <DollarSign className="w-8 h-8" />
                 <div className="text-left">
                   <div className="text-sm text-white/80">Starting From</div>
-                  <div className="text-3xl">â‚¹15,000</div>
+                  <div className="text-3xl">₹15,000</div>
                 </div>
               </div>
             </div>
