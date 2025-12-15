@@ -15,7 +15,8 @@ import { PricingPage } from './components/pages/PricingPage';
 import { SalaryHouseRentPricingPage } from './components/pages/pricing/SalaryHouseRentPricingPage';
 import { CapitalGainsPricingPage } from './components/pages/pricing/CapitalGainsPricingPage';
 import { ForeignIncomePricingPage } from './components/pages/pricing/ForeignIncomePricingPage';
-import { ProfessionalsFreelancersPricingPage } from './components/pages/pricing/ProfessionalsFreelancersPricingPage';
+import {ProfessionalsFreelancersPricingPage} from "./components/pages/pricing/ProfessionalsFreelancersPricingPage";
+
 import { ConsultantsBusinessPricingPage } from './components/pages/pricing/ConsultantsBusinessPricingPage';
 import { SmallBusinessTaxPricingPage } from './components/pages/pricing/SmallBusinessTaxPricingPage';
 import { GSTServicesPage } from './components/pages/GSTServicesPage';

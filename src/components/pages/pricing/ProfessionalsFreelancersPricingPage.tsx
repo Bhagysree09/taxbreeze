@@ -11,9 +11,9 @@ import {
 } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
-import { Link } from 'react-router-dom';
 
-export function CapitalGainsPricingPage() {
+
+export function ProfessionalsFreelancersPricingPage() {
   const features = [
     'Short-term & long-term capital gains (STCG / LTCG)',
     'Capital gains from stocks & mutual funds',
