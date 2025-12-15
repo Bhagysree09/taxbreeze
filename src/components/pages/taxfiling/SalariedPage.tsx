@@ -62,7 +62,7 @@ export function SalariedPage() {
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#6A23F5] to-[#A855F7] flex items-center justify-center text-white mx-auto mb-4 text-2xl">
-                  ðŸ’¼
+              
                 </div>
                 <h3 className="text-[#1A1A1A] mb-2">Full-time Employees</h3>
                 <p className="text-[#6F6F6F]">Working professionals with regular salary income</p>
@@ -71,7 +71,7 @@ export function SalariedPage() {
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#6A23F5] to-[#A855F7] flex items-center justify-center text-white mx-auto mb-4 text-2xl">
-                  ðŸ 
+                
                 </div>
                 <h3 className="text-[#1A1A1A] mb-2">HRA Claimants</h3>
                 <p className="text-[#6F6F6F]">Employees claiming House Rent Allowance</p>
@@ -80,7 +80,7 @@ export function SalariedPage() {
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#6A23F5] to-[#A855F7] flex items-center justify-center text-white mx-auto mb-4 text-2xl">
-                  ðŸ’°
+              
                 </div>
                 <h3 className="text-[#1A1A1A] mb-2">Tax Savers</h3>
                 <p className="text-[#6F6F6F]">Looking to maximize 80C, 80D deductions</p>
