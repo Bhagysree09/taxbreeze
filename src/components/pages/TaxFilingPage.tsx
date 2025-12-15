@@ -105,7 +105,7 @@ export function TaxFilingPage() {
               <div className="space-y-4">
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    âœ“
+                    ✓
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Expert Review</h3>
@@ -114,7 +114,7 @@ export function TaxFilingPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    âœ“
+                    ✓
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Hassle-Free Process</h3>
@@ -123,7 +123,7 @@ export function TaxFilingPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    âœ“
+                    ✓
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Quick Turnaround</h3>
@@ -132,7 +132,7 @@ export function TaxFilingPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    âœ“
+                    ✓
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Refund Tracking</h3>

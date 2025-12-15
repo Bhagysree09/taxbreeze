@@ -91,7 +91,7 @@ export function TrademarkServicesPage() {
               <div className="space-y-4">
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    âœ“
+                    ✓
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Legal Protection</h3>
@@ -100,7 +100,7 @@ export function TrademarkServicesPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    âœ“
+                    ✓
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Prevent Infringement</h3>
@@ -109,7 +109,7 @@ export function TrademarkServicesPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    âœ“
+                    ✓
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Business Asset</h3>
@@ -118,7 +118,7 @@ export function TrademarkServicesPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    âœ“
+                    ✓
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Build Trust</h3>
@@ -127,7 +127,7 @@ export function TrademarkServicesPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    âœ“
+                    ✓
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">10 Years Protection</h3>

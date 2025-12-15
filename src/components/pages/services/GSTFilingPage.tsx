@@ -95,21 +95,21 @@ export function GSTFilingPage() {
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">âœ“</span> Maintain clean compliance record
+                  <span className="text-[#6A23F5]">✓</span> Maintain clean compliance record
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">âœ“</span> Ensure your customers can claim input tax credit
+                  <span className="text-[#6A23F5]">✓</span> Ensure your customers can claim input tax credit
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">âœ“</span> Keep your business running smoothly without GST notices
+                  <span className="text-[#6A23F5]">✓</span> Keep your business running smoothly without GST notices
                 </p>
               </CardContent>
             </Card>

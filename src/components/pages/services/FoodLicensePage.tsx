@@ -113,28 +113,28 @@ export function FoodLicensePage() {
             <Card className="border-2 border-[#E9D9FF] bg-white">
               <CardContent className="p-4">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">âœ“</span> Mandatory by law â€” operating without FSSAI license can lead to heavy penalties
+                  <span className="text-[#6A23F5]">✓</span> Mandatory by law — operating without FSSAI license can lead to heavy penalties
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF] bg-white">
               <CardContent className="p-4">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">âœ“</span> Builds customer trust and credibility
+                  <span className="text-[#6A23F5]">✓</span> Builds customer trust and credibility
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF] bg-white">
               <CardContent className="p-4">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">âœ“</span> Required for listing on food delivery platforms (Zomato, Swiggy, etc.)
+                  <span className="text-[#6A23F5]">✓</span> Required for listing on food delivery platforms (Zomato, Swiggy, etc.)
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF] bg-white">
               <CardContent className="p-4">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">âœ“</span> Ensures food safety standards are maintained
+                  <span className="text-[#6A23F5]">✓</span> Ensures food safety standards are maintained
                 </p>
               </CardContent>
             </Card>
