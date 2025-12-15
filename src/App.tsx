@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
 import { ScrollToTop } from './components/ScrollToTop';
+import { FloatingWhatsApp } from './components/FloatingWhatsApp';
+import { OfferPopup } from './components/OfferPopup';
 import { HomePage } from './components/pages/HomePage';
 import { AboutPage } from './components/pages/AboutPage';
 import { CompanyPage } from './components/pages/CompanyPage';
@@ -113,6 +115,8 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop />
+      <OfferPopup />
+      <FloatingWhatsApp />
       <AppContent />
     </Router>
   );
