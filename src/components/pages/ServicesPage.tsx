@@ -1,5 +1,4 @@
-﻿import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+﻿import { motion } from 'framer-motion';
 import type { LucideIcon } from 'lucide-react';
 import {
   FileText,
@@ -7,10 +6,8 @@ import {
   ShieldCheck,
   Building2,
   UtensilsCrossed,
-  ArrowRight,
 } from 'lucide-react';
 
-import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
 
 /* ------------------------------------
@@ -21,8 +18,6 @@ interface ServiceCategory {
   icon: LucideIcon;
   category: string;
   services: string[];
-  link?: string;
-  links?: string[];
   color: string;
   bgColor: string;
   emoji: string;
@@ -33,13 +28,11 @@ interface ServiceCategory {
 ------------------------------------ */
 
 export function ServicesPage() {
-
   const serviceCategories: ServiceCategory[] = [
     {
       icon: FileText,
       category: 'Income Tax Filing',
       services: ['Salaried', 'Capital Gains', 'NRIs', 'ESOP/RSU'],
-      link: '/services/income-tax',
       color: 'from-blue-500 to-blue-600',
       bgColor: 'from-blue-50 to-blue-100',
       emoji: '📋',
@@ -48,11 +41,6 @@ export function ServicesPage() {
       icon: Receipt,
       category: 'GST Services',
       services: ['Registration', 'Monthly Filing', 'Compliance Review'],
-      links: [
-        '/services/gst-registration',
-        '/services/gst-filing',
-        '/services/gst-compliance',
-      ],
       color: 'from-green-500 to-green-600',
       bgColor: 'from-green-50 to-green-100',
       emoji: '📊',
@@ -61,10 +49,6 @@ export function ServicesPage() {
       icon: ShieldCheck,
       category: 'Trademark Services',
       services: ['Registration', 'Objection Reply'],
-      links: [
-        '/services/trademark-registration',
-        '/services/trademark-objection',
-      ],
       color: 'from-purple-500 to-purple-600',
       bgColor: 'from-purple-50 to-purple-100',
       emoji: '🛡️',
@@ -73,7 +57,6 @@ export function ServicesPage() {
       icon: Building2,
       category: 'Business Registrations',
       services: ['Pvt Ltd', 'LLP', 'Proprietorship', 'MSME'],
-      link: '/company',
       color: 'from-orange-500 to-orange-600',
       bgColor: 'from-orange-50 to-orange-100',
       emoji: '🏢',
@@ -82,7 +65,6 @@ export function ServicesPage() {
       icon: UtensilsCrossed,
       category: 'Licensing',
       services: ['Food License (FSSAI)'],
-      link: '/services/food-license',
       color: 'from-red-500 to-red-600',
       bgColor: 'from-red-50 to-red-100',
       emoji: '🍽️',
@@ -157,7 +139,7 @@ export function ServicesPage() {
                         {category.category}
                       </h3>
 
-                      <ul className="space-y-3 mb-6">
+                      <ul className="space-y-3">
                         {category.services.map((service) => (
                           <li
                             key={service}
@@ -170,62 +152,12 @@ export function ServicesPage() {
                           </li>
                         ))}
                       </ul>
-
-                      <div className="w-full h-px bg-gradient-to-r from-transparent via-[#E9D9FF] to-transparent mb-6" />
-
-                      {/* Single link */}
-                      {category.link && (
-                        <Link to={category.link}>
-                          <Button
-                            className={`w-full bg-gradient-to-r ${category.color} text-white font-semibold rounded-xl flex items-center justify-center gap-2`}
-                          >
-                            Explore More
-                            <ArrowRight className="w-4 h-4" />
-                          </Button>
-                        </Link>
-                      )}
-
-                      {/* Multiple links */}
-                      {category.links && (
-                        <div className="space-y-2.5">
-                          {category.links.map((link, idx) => (
-                            <Link key={link} to={link}>
-                              <Button
-                                variant="outline"
-                                className={`w-full border-2 border-[#E9D9FF] text-[#6A23F5]
-                                hover:bg-gradient-to-r ${category.color} hover:text-white`}
-                              >
-                                {category.services[idx]}
-                              </Button>
-                            </Link>
-                          ))}
-                        </div>
-                      )}
                     </CardContent>
                   </Card>
                 </motion.div>
               );
             })}
           </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="relative py-24 bg-gradient-to-r from-[#6A23F5] to-[#8B4FFF] overflow-hidden">
-        <div className="relative max-w-4xl mx-auto text-center px-4">
-          <h2 className="text-4xl font-bold text-white mb-4">
-            Not Sure Which Service You Need?
-          </h2>
-          <p className="text-xl text-white/90 mb-10">
-            Our expert team is ready to guide you to the right compliance solution
-          </p>
-
-          <Link to="/contact">
-            <Button className="bg-white text-[#6A23F5] font-bold rounded-xl px-12 py-4 text-lg shadow-xl flex items-center gap-2 mx-auto">
-              Get Free Consultation
-              <ArrowRight className="w-5 h-5" />
-            </Button>
-          </Link>
         </div>
       </section>
     </div>
