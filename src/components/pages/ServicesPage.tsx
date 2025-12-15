@@ -10,22 +10,13 @@ import {
 
 import { Card, CardContent } from '../ui/card';
 
-/* ------------------------------------
-   Types
------------------------------------- */
-
 interface ServiceCategory {
   icon: LucideIcon;
   category: string;
   services: string[];
   color: string;
-  bgColor: string;
   emoji: string;
 }
-
-/* ------------------------------------
-   Component
------------------------------------- */
 
 export function ServicesPage() {
   const serviceCategories: ServiceCategory[] = [
@@ -34,7 +25,6 @@ export function ServicesPage() {
       category: 'Income Tax Filing',
       services: ['Salaried', 'Capital Gains', 'NRIs', 'ESOP/RSU'],
       color: 'from-blue-500 to-blue-600',
-      bgColor: 'from-blue-50 to-blue-100',
       emoji: '📋',
     },
     {
@@ -42,7 +32,6 @@ export function ServicesPage() {
       category: 'GST Services',
       services: ['Registration', 'Monthly Filing', 'Compliance Review'],
       color: 'from-green-500 to-green-600',
-      bgColor: 'from-green-50 to-green-100',
       emoji: '📊',
     },
     {
@@ -50,7 +39,6 @@ export function ServicesPage() {
       category: 'Trademark Services',
       services: ['Registration', 'Objection Reply'],
       color: 'from-purple-500 to-purple-600',
-      bgColor: 'from-purple-50 to-purple-100',
       emoji: '🛡️',
     },
     {
@@ -58,7 +46,6 @@ export function ServicesPage() {
       category: 'Business Registrations',
       services: ['Pvt Ltd', 'LLP', 'Proprietorship', 'MSME'],
       color: 'from-orange-500 to-orange-600',
-      bgColor: 'from-orange-50 to-orange-100',
       emoji: '🏢',
     },
     {
@@ -66,47 +53,36 @@ export function ServicesPage() {
       category: 'Licensing',
       services: ['Food License (FSSAI)'],
       color: 'from-red-500 to-red-600',
-      bgColor: 'from-red-50 to-red-100',
       emoji: '🍽️',
     },
   ];
 
   return (
-    <div>
+    <div className="bg-[#F7F7FB]">
       {/* HERO */}
-      <section className="relative bg-gradient-to-br from-[#6A23F5] to-[#8B4FFF] py-20 overflow-hidden">
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,_white,_transparent_60%)]" />
-        <div className="relative max-w-7xl mx-auto px-4 text-center text-white">
-          <h1 className="mb-4">Explore Our Services</h1>
-          <p className="text-lg text-white/90 max-w-2xl mx-auto">
-            Comprehensive tax, GST, and business compliance solutions tailored for you.
-          </p>
-        </div>
+      <section className="py-20 text-center">
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-5xl font-bold text-[#1A1A1A] mb-4"
+        >
+          Our Professional Services
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="text-lg text-[#6F6F6F] max-w-2xl mx-auto"
+        >
+          End-to-end compliance, taxation, and registration services trusted by businesses across India.
+        </motion.p>
       </section>
 
-      {/* SERVICES */}
-      <section className="py-24 bg-gradient-to-b from-white to-[#F5F5F7]">
+      {/* SERVICES GRID */}
+      <section className="pb-28">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="mb-16 text-center">
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              className="text-4xl font-bold text-[#1A1A1A] mb-4"
-            >
-              Our Services
-            </motion.h2>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              className="text-xl text-[#6F6F6F] max-w-2xl mx-auto"
-            >
-              Comprehensive solutions designed to simplify your financial and business needs
-            </motion.p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {serviceCategories.map((category, index) => {
               const Icon = category.icon;
 
@@ -115,38 +91,33 @@ export function ServicesPage() {
                   key={category.category}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  whileHover={{ y: -8 }}
+                  transition={{ delay: index * 0.08 }}
                 >
-                  <Card className="h-full border-0 shadow-lg hover:shadow-2xl transition-all overflow-hidden group">
-                    {/* Banner */}
+                  <Card className="relative bg-white/70 backdrop-blur-xl border border-white/60 rounded-3xl shadow-sm hover:shadow-xl transition-all h-full">
+                    {/* Floating Icon */}
                     <div
-                      className={`relative h-48 bg-gradient-to-br ${category.color} flex items-center justify-center`}
+                      className={`absolute -top-6 left-6 w-14 h-14 rounded-2xl bg-gradient-to-br ${category.color}
+                      flex items-center justify-center shadow-lg`}
                     >
-                      <div className="absolute inset-0 opacity-10">
-                        <div className="absolute top-0 right-0 w-32 h-32 bg-white rounded-full -mr-16 -mt-16" />
-                        <div className="absolute bottom-0 left-0 w-40 h-40 bg-white rounded-full -ml-20 -mb-20" />
-                      </div>
-
-                      <div className="relative flex flex-col items-center gap-2">
-                        <span className="text-6xl">{category.emoji}</span>
-                        <Icon className="w-12 h-12 text-white" strokeWidth={1.5} />
-                      </div>
+                      <Icon className="w-7 h-7 text-white" />
                     </div>
 
-                    <CardContent className="p-6">
-                      <h3 className="text-2xl font-bold text-[#1A1A1A] mb-4 group-hover:text-[#6A23F5] transition-colors">
-                        {category.category}
-                      </h3>
+                    <CardContent className="pt-12 pb-8 px-6">
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className="text-2xl">{category.emoji}</span>
+                        <h3 className="text-xl font-semibold text-[#1A1A1A]">
+                          {category.category}
+                        </h3>
+                      </div>
 
-                      <ul className="space-y-3">
+                      <ul className="mt-4 space-y-2">
                         {category.services.map((service) => (
                           <li
                             key={service}
-                            className="flex items-center text-[#6F6F6F] text-sm font-medium"
+                            className="text-sm text-[#6F6F6F] pl-4 relative"
                           >
                             <span
-                              className={`w-2 h-2 rounded-full mr-3 bg-gradient-to-r ${category.color}`}
+                              className={`absolute left-0 top-2 w-1.5 h-1.5 rounded-full bg-gradient-to-r ${category.color}`}
                             />
                             {service}
                           </li>
