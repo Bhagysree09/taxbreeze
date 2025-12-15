@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
+import { ScrollToTop } from './components/ScrollToTop';
 import { HomePage } from './components/pages/HomePage';
 import { AboutPage } from './components/pages/AboutPage';
 import { CompanyPage } from './components/pages/CompanyPage';
@@ -111,6 +112,7 @@ function AppContent() {
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <AppContent />
     </Router>
   );
