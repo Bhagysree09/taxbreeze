@@ -136,7 +136,7 @@ export function OtherBusinessServicesPage() {
               <Button className="bg-white text-[#6A23F5] hover:bg-gray-100 rounded-xl px-8 py-6 text-lg">Contact Us</Button>
             </Link>
             <a href="tel:9740564642">
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-[#6A23F5] rounded-xl px-8 py-6 text-lg">
+              <Button variant="outline" className="border-2 border-white text-[#6A23F5] rounded-xl px-8 py-6 text-lg">
                 Call: 9740564642
               </Button>
             </a>

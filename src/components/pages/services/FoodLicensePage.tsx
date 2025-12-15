@@ -143,7 +143,7 @@ export function FoodLicensePage() {
       </section>
 
       {/* Timeline */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-[#1A1A1A] mb-6">Processing Timeline</h2>
           <Card className="border-2 border-[#6A23F5] bg-[#E9D9FF]/20">
@@ -156,7 +156,7 @@ export function FoodLicensePage() {
             </CardContent>
           </Card>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="py-20 bg-[#6A23F5] text-white">

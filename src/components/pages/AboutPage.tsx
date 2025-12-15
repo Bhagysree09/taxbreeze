@@ -143,10 +143,10 @@ export function AboutPage() {
             viewport={{ once: true }}
           >
             {[
-              { number: 5000, label: 'Happy Clients', suffix: '+' },
-              { number: 10000, label: 'ITR Filed', suffix: '+' },
-              { number: 500, label: 'Companies Registered', suffix: '+' },
-              { number: 98, label: 'Customer Satisfaction', suffix: '%' },
+              { number: 500, label: 'Happy Clients', suffix: '+' },
+              { number: 1000, label: 'ITR Filed', suffix: '+' },
+              { number: 50, label: 'Companies Registered', suffix: '+' },
+              { number: 90, label: 'Customer Satisfaction', suffix: '%' },
             ].map((stat, index) => (
               <motion.div key={index} className="text-center" variants={staggerItem}>
                 <div className="text-4xl text-[#6A23F5] mb-2">

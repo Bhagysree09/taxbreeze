@@ -1,5 +1,5 @@
 ﻿import { Link } from 'react-router-dom';
-import { CheckCircle2, FileText, Calculator, Clock, ArrowRight } from 'lucide-react';
+import { CheckCircle2, FileText, Calculator, Clock, ArrowRight, User, Home, DollarSign } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
 import { ImageWithFallback } from '../../figma/ImageWithFallback';
@@ -30,7 +30,7 @@ export function SalariedPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm">
-                ðŸ’¼ For Salaried Individuals
+              For Salaried Individuals
               </div>
               <h1 className="text-white mb-6 text-4xl lg:text-5xl">Income Tax Filing for Salaried Employees</h1>
               <p className="text-white/90 text-lg mb-8">
@@ -62,7 +62,7 @@ export function SalariedPage() {
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#6A23F5] to-[#A855F7] flex items-center justify-center text-white mx-auto mb-4 text-2xl">
-              
+                  <User className="w-8 h-8" />
                 </div>
                 <h3 className="text-[#1A1A1A] mb-2">Full-time Employees</h3>
                 <p className="text-[#6F6F6F]">Working professionals with regular salary income</p>
@@ -71,7 +71,7 @@ export function SalariedPage() {
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#6A23F5] to-[#A855F7] flex items-center justify-center text-white mx-auto mb-4 text-2xl">
-                
+                  <Home className="w-8 h-8" />
                 </div>
                 <h3 className="text-[#1A1A1A] mb-2">HRA Claimants</h3>
                 <p className="text-[#6F6F6F]">Employees claiming House Rent Allowance</p>
@@ -80,7 +80,7 @@ export function SalariedPage() {
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#6A23F5] to-[#A855F7] flex items-center justify-center text-white mx-auto mb-4 text-2xl">
-              
+                  <DollarSign className="w-8 h-8" />
                 </div>
                 <h3 className="text-[#1A1A1A] mb-2">Tax Savers</h3>
                 <p className="text-[#6F6F6F]">Looking to maximize 80C, 80D deductions</p>
@@ -193,7 +193,7 @@ export function SalariedPage() {
             <a href="https://wa.me/919740564642" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-[#6A23F5] rounded-xl px-8 py-6 text-lg"
+                className="border-2 border-white text-black rounded-xl px-8 py-6 text-lg"
               >
                 WhatsApp Now
               </Button>

@@ -143,7 +143,7 @@ export function ContactPage() {
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5" />
-              <span>Mon-Fri: 9AM-7PM</span>
+              <span>24/7</span>
             </div>
           </motion.div>
         </div>

@@ -31,7 +31,7 @@ export function NRIPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm">
-                ðŸŒ NRI Tax Filing
+                NRI Tax Filing
               </div>
               <h1 className="text-white mb-6 text-4xl lg:text-5xl">Income Tax Filing for NRIs & Global Income</h1>
               <p className="text-white/90 text-lg mb-8">

@@ -36,7 +36,7 @@ export function CapitalGainsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm">
-                ðŸ“ˆ Capital Gains Filing
+               Capital Gains Filing
               </div>
               <h1 className="text-white mb-6 text-4xl lg:text-5xl">Income Tax Filing for Capital Gains</h1>
               <p className="text-white/90 text-lg mb-8">
