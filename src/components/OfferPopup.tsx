@@ -40,12 +40,12 @@ export function OfferPopup() {
 
           {/* Popup */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.8, y: -50 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.8, y: -50 }}
-            className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 max-w-md w-full mx-4"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.9 }}
+            className="fixed inset-0 z-50 flex items-center justify-center px-4"
           >
-            <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
+            <div className="relative w-full max-w-md bg-white rounded-2xl shadow-2xl overflow-hidden">
               {/* Image - Latest Offer */}
               <div className="relative w-full h-64 bg-gradient-to-br from-[#6A23F5] to-[#8B4FFF] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,_white,_transparent_60%)]" />
