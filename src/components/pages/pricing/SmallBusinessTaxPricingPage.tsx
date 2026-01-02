@@ -1,7 +1,5 @@
 import { motion } from 'motion/react';
- 
-import { Check, Star, Shield, Clock, Users, ArrowRight, Phone, Mail} from 'lucide-react';
-=======
+
 import {
   Check,
   Star,
@@ -10,9 +8,8 @@ import {
   Users,
   ArrowRight,
   Phone,
-  MessageCircle,
+  Mail,
 } from 'lucide-react';
->>>>>>> 7ddcbfd7df36bd345dd8a664a09a2070ea875c31
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
 import { Link } from 'react-router-dom';
@@ -231,44 +228,6 @@ export function SmallBusinessTaxPricingPage() {
                 </CardContent>
               </Card>
             </motion.div>
-=======
-          {/* RIGHT CTA */}
-          <div>
-            <Card className="border-2 border-[#E9D9FF] sticky top-20">
-              <CardContent className="p-8">
-                <h3 className="text-xl mb-4">Ready to Get Compliant?</h3>
-                <p className="text-[#6F6F6F] mb-6">
-                  Stress-free tax and GST compliance for your business
-                </p>
-
-                <Link to="/contact">
-                  <Button className="w-full bg-[#6A23F5] text-white rounded-xl mb-4">
-                    Get Started
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </Button>
-                </Link>
-
-                <div className="space-y-3">
-                  <a href="tel:9740564642">
-                    <Button variant="outline" className="w-full">
-                      <Phone className="w-4 h-4 mr-2" />
-                      Call Us
-                    </Button>
-                  </a>
-                  <a
-                    href="https://wa.me/919740564642"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline" className="w-full">
-                      <MessageCircle className="w-4 h-4 mr-2" />
-                      WhatsApp
-                    </Button>
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
->>>>>>> 7ddcbfd7df36bd345dd8a664a09a2070ea875c31
           </div>
         </div>
       </div>
