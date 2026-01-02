@@ -106,11 +106,10 @@ export function TrademarkRegistrationPage() {
           <Card className="border-2 border-[#6A23F5] bg-white">
             <CardContent className="p-6">
        
-                 <div>
+            <div>
                   <h3 className="text-[#1A1A1A] mb-2">Important</h3>
                   <p className="text-[#6F6F6F]">
-                    Trademark registration provides protection for 10 years and is renewable. We provide complete support from search to registration, including objection handling if needed..
-                  </p>
+                    Trademark registration provides protection for 10 years and is renewable. We provide complete support from search to registration, including objection handling if needed.</p>
                 </div>
             </CardContent>
           </Card>

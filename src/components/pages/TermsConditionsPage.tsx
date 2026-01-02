@@ -30,12 +30,12 @@ export function TermsConditionsPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-            <p className="text-[#6F6F6F] text-lg mb-12 text-center">
+            <p className="text-[#6F6F6F] text-base mb-12 text-center">
               Welcome to TaxBreeze! Please read these Terms and Conditions ("Terms") carefully before using our website and services. By accessing or using TaxBreeze, you agree to be bound by these Terms.
             </p>
           </motion.div>
 
-          <div className="space-y-12">
+          <div className="space-y-12 text-base leading-7 text-[#6F6F6F]">
             <motion.div variants={fadeInUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
               <Card className="border-2 border-[#E9D9FF]">
                 <CardContent className="p-8">
