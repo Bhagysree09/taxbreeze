@@ -1,5 +1,5 @@
 ﻿import { Link } from 'react-router-dom';
-import { ShieldCheck, Award, Lock, Globe } from 'lucide-react';
+import { ShieldCheck, Award, Lock, Globe, AlertCircle } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
 
@@ -103,14 +103,17 @@ export function TrademarkRegistrationPage() {
       {/* Info Box */}
       <section className="py-20 bg-[#E9D9FF]/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="border-2 border-[#6A23F5] bg-white">
+             <Card className="border-2 border-[#E85C5C] bg-[#E85C5C]/5">
             <CardContent className="p-6">
-       
-            <div>
+              <div className="flex items-start gap-4">
+                <AlertCircle className="w-8 h-8 text-[#E85C5C] flex-shrink-0" />
+                <div>
                   <h3 className="text-[#1A1A1A] mb-2">Important</h3>
                   <p className="text-[#6F6F6F]">
-                    Trademark registration provides protection for 10 years and is renewable. We provide complete support from search to registration, including objection handling if needed.</p>
+                    Missing the 30-day deadline or submitting a weak response can result in your trademark application being abandoned. Professional assistance is crucial.
+                  </p>
                 </div>
+              </div>
             </CardContent>
           </Card>
         </div>
