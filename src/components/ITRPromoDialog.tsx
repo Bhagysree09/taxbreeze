@@ -39,12 +39,13 @@ export default function ITRPromoDialog() {
     <Dialog open={open} onOpenChange={(val) => { if (!val) handleClose(); setOpen(val); }}>
       {/* Trigger kept for a11y - hidden */}
       <DialogTrigger asChild>
-        <button style={{display: 'none'}} aria-hidden />
+        <button style={{ display: 'none' }} aria-hidden />
       </DialogTrigger>
-      <DialogContent className="p-4 sm:p-6">
-        {/* Close icon in header for clarity on small screens */}
-        <DialogClose>
+      <DialogContent className="p-4 sm:p-6 relative">
+        {/* Visible close button (top-right) */}
+        <DialogClose className="absolute right-3 top-3 sm:right-4 sm:top-4 inline-flex items-center justify-center rounded-md bg-white/90 hover:bg-white p-1">
           <span className="sr-only">Close</span>
+          <X className="w-5 h-5 text-muted-foreground" />
         </DialogClose>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-start">
@@ -63,12 +64,7 @@ export default function ITRPromoDialog() {
                   <DialogTitle>ITR Filing — Limited Time Offer</DialogTitle>
                   <DialogDescription>Get hassle-free ITR filing starting at just ₹199. Offer valid for new customers.</DialogDescription>
                 </div>
-                {/* explicit cross for accessibility */}
-                <div className="sm:hidden">
-                  <DialogClose>
-                    <X className="w-5 h-5 text-muted-foreground" />
-                  </DialogClose>
-                </div>
+                {/* (Close handled via top-right button) */}
               </div>
             </DialogHeader>
 
