@@ -111,6 +111,13 @@ export function ForeignIncomePricingPage() {
                       </svg>
                       WhatsApp Us
                     </a>
+                     <div className="mt-6 p-4 bg-green-50 rounded-xl">
+                    <p className="text-sm text-center text-gray-700">
+                      ✓ 100% Secure & Confidential<br />
+                      ✓ Money Back Guarantee<br />
+                      ✓ Expert CA Support
+                    </p>
+                  </div>
                   </div>
                 </CardContent>
               </Card>
