@@ -60,7 +60,7 @@ export function HomePage() {
   ];
 
   const benefits = [
-    { icon: <CheckCircle2 className="w-6 h-6" />, text: 'Transparent Pricing â€” No Hidden Charges' },
+    { icon: <CheckCircle2 className="w-6 h-6" />, text: 'Transparent Pricing & No Hidden Charges' },
     { icon: <Users className="w-6 h-6" />, text: 'Dedicated Personal Expert' },
     { icon: <Clock className="w-6 h-6" />, text: 'Accurate & On-time Filing' },
     { icon: <ShieldCheck className="w-6 h-6" />, text: 'Data Privacy & Confidentiality Maintained' },

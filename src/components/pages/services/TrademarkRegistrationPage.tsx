@@ -105,7 +105,7 @@ export function TrademarkRegistrationPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="border-2 border-[#6A23F5] bg-white">
             <CardContent className="p-6">
-              <h3 className="text-[#1A1A1A] mb-3">Important Note</h3>
+       
                  <div>
                   <h3 className="text-[#1A1A1A] mb-2">Important</h3>
                   <p className="text-[#6F6F6F]">
