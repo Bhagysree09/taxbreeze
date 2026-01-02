@@ -185,7 +185,7 @@ export function Navigation() {
 
             <Link to="/login">
               <button className="px-7 py-2.5 bg-[#6A23F5] text-white rounded-xl text-sm font-medium hover:bg-[#8B5CF6] transition-all">
-                Become a Partner
+              Partner With
               </button>
             </Link>
           </div>

@@ -6,7 +6,7 @@ export function Footer() {
   const socialLinks = [
     { icon: <Facebook className="w-5 h-5" />, href: 'https://www.facebook.com/share/18SEr2ESAb/', label: 'Facebook' },
     // { icon: <Twitter className="w-5 h-5" />, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: <Linkedin className="w-5 h-5" />, href: 'https://www.linkedin.com/company/taxbreezze/', label: 'LinkedIn' },
+    { icon: <Linkedin className="w-5 h-5"  />, href: 'https://www.linkedin.com/company/taxbreezze/', label: 'LinkedIn' },
     { icon: <Instagram className="w-5 h-5" />, href: 'https://www.instagram.com/taxbreeze.in?igsh=MXdsbTlsdnl2YWhrNg==', label: 'Instagram' },
     // { icon: <Youtube className="w-5 h-5" />, href: 'https://youtube.com', label: 'YouTube' },
   ];

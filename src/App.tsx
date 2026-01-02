@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
+import { ScrollToTop } from './components/ScrollToTop';
+import { FloatingWhatsApp } from './components/FloatingWhatsApp';
+import { OfferPopup } from './components/OfferPopup';
 import { HomePage } from './components/pages/HomePage';
 import { AboutPage } from './components/pages/AboutPage';
 import { CompanyPage } from './components/pages/CompanyPage';
@@ -12,7 +15,8 @@ import { PricingPage } from './components/pages/PricingPage';
 import { SalaryHouseRentPricingPage } from './components/pages/pricing/SalaryHouseRentPricingPage';
 import { CapitalGainsPricingPage } from './components/pages/pricing/CapitalGainsPricingPage';
 import { ForeignIncomePricingPage } from './components/pages/pricing/ForeignIncomePricingPage';
-import { ProfessionalsFreelancersPricingPage } from './components/pages/pricing/ProfessionalsFreelancersPricingPage';
+import {ProfessionalsFreelancersPricingPage} from "./components/pages/pricing/ProfessionalsFreelancersPricingPage";
+
 import { ConsultantsBusinessPricingPage } from './components/pages/pricing/ConsultantsBusinessPricingPage';
 import { SmallBusinessTaxPricingPage } from './components/pages/pricing/SmallBusinessTaxPricingPage';
 import { GSTServicesPage } from './components/pages/GSTServicesPage';
@@ -111,6 +115,9 @@ function AppContent() {
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
+      <OfferPopup />
+      <FloatingWhatsApp />
       <AppContent />
     </Router>
   );
