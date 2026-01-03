@@ -1,5 +1,5 @@
 ﻿import { motion } from 'motion/react';
-import { Scale, FileCheck, UserCheck, CreditCard, Shield, AlertCircle, Mail, Phone } from 'lucide-react';
+import { Scale, FileCheck, UserCheck, CreditCard, Shield, AlertCircle, Mail, Phone, Check } from 'lucide-react';
 import { Card, CardContent } from '../ui/card';
 import { fadeInUp } from '../utils/animations';
 
@@ -87,10 +87,19 @@ export function TermsConditionsPage() {
               <Card className="border-2 border-[#E9D9FF]">
                 <CardContent className="p-8">
                   <h2 className="text-[#1A1A1A] mb-4">4. User Responsibilities</h2>
-                  <ul className="space-y-2 text-[#6F6F6F]">
-                    <li>• Provide accurate, current, and complete information during registration and while using services.</li>
-                    <li>• Maintain confidentiality of login credentials and notify TaxBreeze immediately of any unauthorized use.</li>
-                    <li>• Comply with all applicable laws and regulations while using TaxBreeze.</li>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                      <span>Provide accurate, current, and complete information during registration and while using services.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                      <span>Maintain confidentiality of login credentials and notify TaxBreeze immediately of any unauthorized use.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                      <span>Comply with all applicable laws and regulations while using TaxBreeze.</span>
+                    </li>
                   </ul>
                 </CardContent>
               </Card>
@@ -100,11 +109,23 @@ export function TermsConditionsPage() {
               <Card className="border-2 border-[#E9D9FF]">
                 <CardContent className="p-8">
                   <h2 className="text-[#1A1A1A] mb-4">5. Service Process and Limitations</h2>
-                      <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>• TaxBreeze facilitates preparation and filing of tax returns based on information provided by you.</li>
-                        <li>• We do not offer legal or financial advice beyond the scope of tax compliance and filing services.</li>
-                        <li>• TaxBreeze is not responsible for errors caused by incorrect or incomplete information supplied by you.</li>
-                        <li>• Filing timelines depend on the government portal processing and acceptance.</li>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>TaxBreeze facilitates preparation and filing of tax returns based on information provided by you.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>We do not offer legal or financial advice beyond the scope of tax compliance and filing services.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>TaxBreeze is not responsible for errors caused by incorrect or incomplete information supplied by you.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>Filing timelines depend on the government portal processing and acceptance.</span>
+                        </li>
                       </ul>
                 </CardContent>
               </Card>
@@ -119,10 +140,19 @@ export function TermsConditionsPage() {
                     </div>
                     <div className="flex-1">
                       <h2 className="text-[#1A1A1A] mb-4">6. Payment Terms</h2>
-                      <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>• All fees are payable as per the pricing detailed on the website or during service signup.</li>
-                        <li>• Payments must be made through the authorized payment gateways provided by TaxBreeze.</li>
-                        <li>• Refunds, if any, are subject to the specific refund policy available on the relevant service page.</li>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>All fees are payable as per the pricing detailed on the website or during service signup.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>Payments must be made through the authorized payment gateways provided by TaxBreeze.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>Refunds, if any, are subject to the specific refund policy available on the relevant service page.</span>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -134,10 +164,16 @@ export function TermsConditionsPage() {
               <Card className="border-2 border-[#E9D9FF]">
                 <CardContent className="p-8">
                   <h2 className="text-[#1A1A1A] mb-4">7. Intellectual Property Rights</h2>
-                  <ul className="space-y-2 text-[#6F6F6F]">
-                    <li>• All content on TaxBreeze, including text, logos, images, software, and trademarks, are owned or licensed by TaxBreeze.</li>
-                    <li>• Users are prohibited from copying, distributing, or using TaxBreeze's intellectual property without explicit permission.</li>
-                  </ul>
+                  <ul className="space-y-2">
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>All content on TaxBreeze, including text, logos, images, software, and trademarks, are owned or licensed by TaxBreeze.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>Users are prohibited from copying, distributing, or using TaxBreeze's intellectual property without explicit permission.</span>
+                        </li>
+                      </ul>
                 </CardContent>
               </Card>
             </motion.div>
@@ -170,9 +206,15 @@ export function TermsConditionsPage() {
                     </div>
                     <div className="flex-1">
                       <h2 className="text-[#1A1A1A] mb-4">9. Limitation of Liability</h2>
-                      <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>• TaxBreeze shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services.</li>
-                        <li>• Our total liability shall not exceed the fees paid by you for the specific service.</li>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>TaxBreeze shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>Our total liability shall not exceed the fees paid by you for the specific service.</span>
+                        </li>
                       </ul>
                     </div>
                   </div>

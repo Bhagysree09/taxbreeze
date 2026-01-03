@@ -1,5 +1,5 @@
 ﻿import { motion } from 'motion/react';
-import { Shield, Lock, Eye, UserCheck, FileText, Mail, Phone } from 'lucide-react';
+import { Shield, Lock, Eye, UserCheck, FileText, Mail, Phone, Check } from 'lucide-react';
 import { Card, CardContent } from '../ui/card';
 import { fadeInUp } from '../utils/animations';
 
@@ -65,11 +65,23 @@ export function PrivacyPolicyPage() {
                     </div>
                     <div className="flex-1">
                       <h2 className="text-[#1A1A1A] mb-4">2. How We Use Your Information</h2>
-                      <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>To provide and improve tax filing and compliance services.</li>
-                        <li>To communicate with you regarding your account, transactions, and updates.</li>
-                        <li>For marketing purposes, only with your consent.</li>
-                        <li>To comply with legal obligations, including tax authorities and regulatory bodies.</li>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>To provide and improve tax filing and compliance services.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>To communicate with you regarding your account, transactions, and updates.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>For marketing purposes, only with your consent.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>To comply with legal obligations, including tax authorities and regulatory bodies.</span>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -86,10 +98,19 @@ export function PrivacyPolicyPage() {
                     </div>
                     <div className="flex-1">
                       <h2 className="text-[#1A1A1A] mb-4">3. Data Sharing and Disclosure</h2>
-                      <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>We do not sell or share your personal data with third parties for marketing purposes without consent.</li>
-                        <li>Data may be shared with government authorities, tax departments, and service providers strictly for fulfilling service obligations.</li>
-                        <li>We use third-party vendors for payment processing and IT infrastructure under strict confidentiality agreements.</li>
+                      <ul className="space-y-2">
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>We do not sell or share your personal data with third parties for marketing purposes without consent.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>Data may be shared with government authorities, tax departments, and service providers strictly for fulfilling service obligations.</span>
+                        </li>
+                        <li className="flex items-start gap-3">
+                          <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                          <span>We use third-party vendors for payment processing and IT infrastructure under strict confidentiality agreements.</span>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -119,10 +140,19 @@ export function PrivacyPolicyPage() {
               <Card className="border-2 border-[#E9D9FF]">
                 <CardContent className="p-8">
                   <h2 className="text-[#1A1A1A] mb-4">5. Your Rights</h2>
-                  <ul className="space-y-2 text-[#6F6F6F]">
-                    <li><strong className="text-[#1A1A1A]">Access and Correction:</strong> You can request access to and correction of your personal data.</li>
-                    <li><strong className="text-[#1A1A1A]">Deletion:</strong> You may request deletion of your data, subject to legal retention requirements.</li>
-                    <li><strong className="text-[#1A1A1A]">Opt-Out:</strong> You may opt out of marketing communications at any time by contacting us.</li>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                      <span><strong className="text-[#1A1A1A]">Access and Correction:</strong> You can request access to and correction of your personal data.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                      <span><strong className="text-[#1A1A1A]">Deletion:</strong> You may request deletion of your data, subject to legal retention requirements.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <Check className="w-5 h-5 mt-1 text-green-600 flex-shrink-0" />
+                      <span><strong className="text-[#1A1A1A]">Opt-Out:</strong> You may opt out of marketing communications at any time by contacting us.</span>
+                    </li>
                   </ul>
                 </CardContent>
               </Card>
