@@ -73,7 +73,7 @@ export function SalaryHouseRentPricingPage() {
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-5 h-5 fill-current" />
                 ))}
-                <span className="ml-2 text-white">4.8/5 (2,500+ reviews)</span>
+                <span className="ml-2 text-white">4.8/5 (500+ reviews)</span>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
